@@ -2,18 +2,21 @@
 //  AppDelegate.swift
 //  Babycare
 //
-//  Created by Lovepreet Singh on 10/05/23.
+//  Created by User on 10/05/23.
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseDatabase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
         return true
     }
 

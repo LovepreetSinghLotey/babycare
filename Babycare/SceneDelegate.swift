@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Babycare
 //
-//  Created by Lovepreet Singh on 10/05/23.
+//  Created by User on 10/05/23.
 //
 
 import UIKit
